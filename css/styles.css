@@ -1,0 +1,48 @@
+/* CSS reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI Variable Display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Company logo */
+header > img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+/* Main content */
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+}
