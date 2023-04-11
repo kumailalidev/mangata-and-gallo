@@ -21,6 +21,15 @@ h2 {
     font-size: 2rem;
 }
 
+/* Global list items styles */
+ul {
+    list-style: none;
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+
 /* Company logo */
 header > img {
     width: 500px;
@@ -29,20 +38,33 @@ header > img {
     margin-right: auto;  
 }
 
-/* Navigation menu */
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-li {
-    display: inline-block;
-}
-
 /* Main content */
 section {
     display: flex;
 }
 article {
+    flex: 1;
+}
+
+/* Shop */
+.occasion_image img {
+    width: 350px;
+}
+
+/* About Us */
+.about_us img {
+    width: 500px;
+}
+
+/* footer */
+footer {
+    display: flex;
+}
+
+footer img {
+    width: 250px;
+}
+
+footer div {
     flex: 1;
 }
