@@ -7,6 +7,7 @@
 body {
     background-color: #f2f2f2;
     font-family:'Libre Bodoni', serif;
+    font-weight: 400;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -35,12 +36,13 @@ header > img {
     margin-right: auto;  
 }
 
+/* Navigation bar */
 .nav_bar {
     background-color: #ffffff;
 }
 .nav_bar a {
     display: inline-block;
-    padding: 20px;
+    padding: 25px;
     text-decoration: none;
     color: #000;
 }
@@ -55,6 +57,32 @@ section {
 }
 article {
     flex: 1;
+}
+
+/* Promotional banner */
+.promotional_banner {
+    background-color: #000;
+}
+.promotional_banner_content {
+    padding: 25px;
+    color: #ffffff;
+}
+.promotional_banner_content button {
+    font-family:'Libre Bodoni', serif;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+.promotional_banner_content button:hover {
+    font-family:'Libre Bodoni', serif;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: #f2f2f2;
 }
 
 /* Shop */
