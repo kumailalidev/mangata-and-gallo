@@ -7,8 +7,6 @@
 body {
     background-color: #f2f2f2;
     font-family:'Libre Bodoni', serif;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -30,12 +28,25 @@ li {
     display: inline-block;
 }
 
-/* Company logo */
 header > img {
     width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;  
+}
+
+.nav_bar {
+    background-color: #ffffff;
+}
+.nav_bar a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.nav_bar a:hover {
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 /* Main content */
