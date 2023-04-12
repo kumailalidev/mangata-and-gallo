@@ -127,13 +127,15 @@ h2 {
     padding: 15px;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 0 0px 3px rgb(0 0 0 / 0.2);
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+    transition: all 0.3s ease-out;
+    
 }
 
 .card:hover {
-    box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+    transform: translateY(-5px) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11);
 }
-
 
 .occasion_name {
     color: #333333;
